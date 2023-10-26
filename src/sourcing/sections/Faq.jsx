@@ -229,7 +229,9 @@ const Faq = () => {
                 </div>
                 {open === 8 ? (
                   <div className="fifa" style={{ display: "block" }}>
-                    <p>nma gaplar</p>
+                    <p>o'zgarish bo'ldi marxamant 
+                      ko'rishingiz mumkun
+                    </p>
                   </div>
                 ) : (
                   <></>
