@@ -5,19 +5,20 @@ import Footer from "./sections/Footer";
 import Publi_body from "./sections/Publi_body";
 
 const Publkatsya = () => {
-    return(<>
-    <SourcingStyle  >
+  return (
+    <>
+      <SourcingStyle>
         <body>
-            <div className="contenr">
-            <Header/>
-            <Publi_body/>  
-            <Card_to/>
-            <hr/>
-            <Footer/>
-            </div>
+          <div className="contenr">
+            <Header />
+            <Publi_body />
+            <Card_to />
+            <hr />
+            <Footer />
+          </div>
         </body>
-    
-    </SourcingStyle>
-    </>)
-}
+      </SourcingStyle>
+    </>
+  );
+};
 export default Publkatsya;

@@ -12,7 +12,6 @@ const Faq = () => {
               <button
                 className={open === 1 ? " accordion" : "accordion"}
                 onClick={() => setOpen(open === 1 ? 0 : 1)}
-                // style={{display: "flex", flexDirection: "row"}}
               >
                 <div
                   className={
@@ -41,7 +40,6 @@ const Faq = () => {
               <button
                 className={open === 2 ? " accordion" : "accordion"}
                 onClick={() => setOpen(open === 2 ? 0 : 2)}
-                // style={{display: "flex", flexDirection: "row"}}
               >
                 <div
                   className={
@@ -70,7 +68,6 @@ const Faq = () => {
               <button
                 className={open === 3 ? " accordion" : "accordion"}
                 onClick={() => setOpen(open === 3 ? 0 : 3)}
-                // style={{display: "flex", flexDirection: "row"}}
               >
                 <div
                   className={
@@ -99,7 +96,6 @@ const Faq = () => {
               <button
                 className={open === 4 ? " accordion" : "accordion"}
                 onClick={() => setOpen(open === 4 ? 0 : 4)}
-                // style={{display: "flex", flexDirection: "row"}}
               >
                 <div
                   className={
@@ -129,7 +125,6 @@ const Faq = () => {
               <button
                 className={open === 5 ? " accordion" : "accordion"}
                 onClick={() => setOpen(open === 5 ? 0 : 5)}
-                // style={{display: "flex", flexDirection: "row"}}
               >
                 <div
                   className={
@@ -157,7 +152,6 @@ const Faq = () => {
               <button
                 className={open === 6 ? " accordion" : "accordion"}
                 onClick={() => setOpen(open === 6 ? 0 : 6)}
-                // style={{display: "flex", flexDirection: "row"}}
               >
                 <div
                   className={
@@ -185,7 +179,6 @@ const Faq = () => {
               <button
                 className={open === 7 ? " accordion" : "accordion"}
                 onClick={() => setOpen(open === 7 ? 0 : 7)}
-                // style={{display: "flex", flexDirection: "row"}}
               >
                 <div
                   className={
@@ -213,7 +206,6 @@ const Faq = () => {
               <button
                 className={open === 8 ? " accordion" : "accordion"}
                 onClick={() => setOpen(open === 8 ? 0 : 8)}
-                // style={{display: "flex", flexDirection: "row"}}
               >
                 <div
                   className={
@@ -229,9 +221,7 @@ const Faq = () => {
                 </div>
                 {open === 8 ? (
                   <div className="fifa" style={{ display: "block" }}>
-                    <p>o'zgarish bo'ldi marxamant 
-                      ko'rishingiz mumkun
-                    </p>
+                    <p>o'zgarish bo'ldi marxamant ko'rishingiz mumkun</p>
                   </div>
                 ) : (
                   <></>
